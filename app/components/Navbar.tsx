@@ -6,6 +6,8 @@ const navItems = [
   { label: 'Agents', href: '/' },
   { label: 'Projets', href: '/projects' },
   { label: 'Carrière', href: '/career' },
+  { label: 'En coulisse', href: '/habitudes-de-travail' },
+  { label: 'Objectifs', href: '/objectifs' },
 ];
 
 export const Navbar = () => {
@@ -32,16 +34,6 @@ export const Navbar = () => {
           ))}
         </div>
         <div className="flex items-center gap-4">
-          <Link
-            href="/projects"
-            className="inline-flex items-center justify-center rounded-full border border-valorant-gray bg-valorant-red/10 px-4 py-2 text-xs uppercase tracking-[0.2em] text-valorant-white hover:bg-valorant-red transition"
-          >
-            Projets
-          </Link>
-          <div className="text-right hidden sm:block">
-            <p className="text-[10px] text-valorant-gray uppercase leading-none">Status</p>
-            <p className="text-xs text-green-400 font-bold uppercase">Online</p>
-          </div>
         </div>
       </div>
     </nav>

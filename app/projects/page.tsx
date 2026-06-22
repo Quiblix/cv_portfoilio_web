@@ -16,12 +16,6 @@ export default function ProjectsPage() {
             </p>
           </div>
 
-          <Link
-            href="/"
-            className="inline-flex items-center justify-center rounded-full border border-valorant-gray px-6 py-3 uppercase text-xs tracking-[0.25em] text-valorant-white hover:bg-valorant-red transition"
-          >
-            Revenir à l’accueil
-          </Link>
         </div>
 
         <div className="grid gap-6 md:grid-cols-2">
