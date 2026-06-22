@@ -1,3 +1,4 @@
 {
-  "/habitudes-de-travail/page": "app/habitudes-de-travail/page.js"
+  "/habitudes-de-travail/page": "app/habitudes-de-travail/page.js",
+  "/objectifs/page": "app/objectifs/page.js"
 }

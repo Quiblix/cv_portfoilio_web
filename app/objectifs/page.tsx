@@ -13,9 +13,12 @@ export default function ObjectivesPage() {
           <p className="text-valorant-red uppercase tracking-[0.4em] text-sm mb-4">Objectifs</p>
           <h1 className="text-4xl md:text-5xl font-black tracking-tighter mb-6">Mes objectifs</h1>
 
-          <div className="grid gap-12 lg:grid-cols-2">
-            <div className="space-y-6">
-              <h2 className="text-2xl font-semibold text-white">Objectifs de développement</h2>
+          <div className="flex overflow-x-auto snap-x snap-mandatory gap-6 pb-8 scrollbar-hide -mx-6 px-6 md:mx-0 md:px-0">
+            <div className="min-w-[85vw] md:min-w-[480px] flex-shrink-0 snap-center space-y-6 border border-valorant-red/20 bg-valorant-slate/40 p-8 rounded-2xl shadow-xl backdrop-blur-sm">
+              <h2 className="text-2xl font-bold text-white flex items-center gap-3">
+                <span className="w-1.5 h-8 bg-valorant-red inline-block"></span>
+                Objectifs de développement
+              </h2>
               <ul className="space-y-4 text-valorant-gray leading-8">
                 <li>
                   <strong className="text-white">Maîtriser React et Next.js :</strong> continuer à construire des interfaces performantes, accessibles et scalables.
@@ -32,8 +35,11 @@ export default function ObjectivesPage() {
               </ul>
             </div>
 
-            <div className="space-y-6">
-              <h2 className="text-2xl font-semibold text-white">Objectifs personnels</h2>
+            <div className="min-w-[85vw] md:min-w-[480px] flex-shrink-0 snap-center space-y-6 border border-valorant-red/20 bg-valorant-slate/40 p-8 rounded-2xl shadow-xl backdrop-blur-sm">
+              <h2 className="text-2xl font-bold text-white flex items-center gap-3">
+                <span className="w-1.5 h-8 bg-valorant-red inline-block"></span>
+                Objectifs personnels
+              </h2>
               <ul className="space-y-4 text-valorant-gray leading-8">
                 <li>
                   <strong className="text-white">Développer ma discipline :</strong> garder des routines de travail saines et maintenir un bon équilibre entre études, projets et repos.

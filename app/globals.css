@@ -41,6 +41,15 @@ body {
 
   @keyframes scanline { 0% { bottom: 100%; } 100% { bottom: -100px; } }
 
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
   button:hover,
   a:hover,
   input[type="button"]:hover,
